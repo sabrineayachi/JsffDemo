@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14759363331072" configfile="/JsffDemo/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="echec" x="277" y="148" id="pf14759366005043" inlinks="pf14759366005044" path="/echec.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="index" x="519" y="273" id="pf14759366005045" outlinks="pf14759366005044 pf14759366005046" path="/index.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="success" x="264" y="349" id="pf14759366005047" inlinks="pf14759366005046" path="/success.jsp"/>
+  <links id="pf14759366005044" target="pf14759366005043" source="pf14759366005045" outcome="non"/>
+  <links id="pf14759366005046" target="pf14759366005047" source="pf14759366005045" outcome="oui"/>
+</pageflow:Pageflow>
